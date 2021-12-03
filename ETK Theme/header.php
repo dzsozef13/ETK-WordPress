@@ -27,54 +27,54 @@
 <body>
 
 <header id="header" style="z-index: 999;">
-	<a href="http://josephpunk.dk/dev.etk/"><div id="icon-logo"></div></a>
+	<a href="https://josephpunk.dk/dev.etk/"><div id="icon-logo"></div></a>
     <a id="icon-menu" href="javascript:void(0);" onclick="toggleNav()"></a>
 </header>
 
 <div id="nav" class="nav-line-round">
     <div class="row nav-court-field nav-line-round nav-court-doubles">
-        <a href="http://josephpunk.dk/dev.etk/">Home</a>
+        <a href="https://josephpunk.dk/dev.etk/">Home</a>
     </div>
     <div class="row">
         <div class="col nav-court-field nav-line-round nav-court-center">
-            <a href="http://josephpunk.dk/dev.etk/trainings">Trainings</a>
+            <a href="https://josephpunk.dk/dev.etk/trainings">Trainings</a>
         </div>
         <div class="col">
             <div class="row nav-court-field nav-line-round nav-court-service">
-                <a href="http://josephpunk.dk/dev.etk/become-a-member">Become a member</a>
+                <a href="https://josephpunk.dk/dev.etk/become-a-member">Become a member</a>
             </div>
             <div class="row nav-court-field nav-line-round nav-court-service">
-                <a href="http://josephpunk.dk/dev.etk/news">News feed</a>
+                <a href="https://josephpunk.dk/dev.etk/news">News feed</a>
             </div>
         </div>
         <div class="col nav-court-field nav-line-round nav-court-center">
-            <a href="http://josephpunk.dk/dev.etk/sponsors">Sponsors</a>
+            <a href="https://josephpunk.dk/dev.etk/sponsors">Sponsors</a>
         </div>
     </div>
     <div class="row nav-court-field nav-line-round nav-court-doubles">
-        <a href="http://josephpunk.dk/dev.etk/leaderboard">Hall of fame</a>
+        <a href="https://josephpunk.dk/dev.etk/leaderboard">Hall of fame</a>
     </div>
 </div>
 
 
 <div id="nav-mobile" class="nav-line-left nav-line-right" style="display: none;">
     <div class="row nav-mobile-court-field nav-line-top">
-        <a href="http://josephpunk.dk/dev.etk/">Home</a>
+        <a href="https://josephpunk.dk/dev.etk/">Home</a>
     </div>
     <div class="row nav-mobile-court-field nav-line-top">
-        <a href="http://josephpunk.dk/dev.etk/become-a-member">Become a member</a>
+        <a href="https://josephpunk.dk/dev.etk/become-a-member">Become a member</a>
     </div>
     <div class="row nav-mobile-court-field nav-line-top">
-        <a href="http://josephpunk.dk/dev.etk/trainings">Trainings</a>  
+        <a href="https://josephpunk.dk/dev.etk/trainings">Trainings</a>  
     </div>
     <div class="row nav-mobile-court-field nav-line-top">
-        <a href="http://josephpunk.dk/dev.etk/news">News feed</a>
+        <a href="https://josephpunk.dk/dev.etk/news">News feed</a>
     </div>
     <div class="row nav-mobile-court-field nav-line-top">
-        <a href="http://josephpunk.dk/dev.etk/leaderboard">Hall of fame</a>        
+        <a href="https://josephpunk.dk/dev.etk/leaderboard">Hall of fame</a>        
     </div>
     <div class="row nav-mobile-court-field nav-line-top nav-line-bottom">
-        <a href="http://josephpunk.dk/dev.etk/sponsors">Sponsors</a>  
+        <a href="https://josephpunk.dk/dev.etk/sponsors">Sponsors</a>  
     </div>
 </div>
 

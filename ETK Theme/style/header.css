@@ -22,7 +22,7 @@
     width: var(--icon-size);
     height: var(--icon-size);
     /* background-color: black; */
-	background-image: url(http://josephpunk.dk/dev.etk/wp-content/uploads/2021/12/logo-icon.svg);
+	background-image: url(https://josephpunk.dk/dev.etk/wp-content/uploads/2021/12/logo-icon.svg);
 	background-size: contain;
 	background-repeat: no-repeat;
 }
@@ -31,7 +31,7 @@
     width: var(--icon-size);
     height: var(--icon-size);
     /* background-color: black; */
-    background-image: url("../assets/menu-icon.svg");
+    background-image: url(https://josephpunk.dk/dev.etk/wp-content/uploads/2021/12/menu-icon.svg);
 	background-size: contain;
 	background-repeat: no-repeat;
 }
