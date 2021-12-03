@@ -1,0 +1,44 @@
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px;
+    margin: 0;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: auto;
+    z-index: 999;
+
+    --icon-size: 64px;
+}
+
+#icon-logo {
+    width: var(--icon-size);
+    height: var(--icon-size);
+    /* background-color: black; */
+	background-image: url(http://josephpunk.dk/dev.etk/wp-content/uploads/2021/12/logo-icon.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+#icon-menu {
+    width: var(--icon-size);
+    height: var(--icon-size);
+    /* background-color: black; */
+    background-image: url("../assets/menu-icon.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 700px) {
+    #header {
+        top: unset;
+        bottom: 0;
+    }
+  }

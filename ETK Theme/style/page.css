@@ -1,0 +1,127 @@
+#page-title {
+    max-width: 400px;
+    color: #fff;
+}
+
+#page-intro {
+    max-width: 600px;
+    color: #fff;
+}
+
+.post {
+    padding: 0 200px 0 200px;
+}
+
+#post-title {
+    max-width: max-content;
+    background-color: #E31F25;
+    color: #fff;
+    padding: 16px 32px 16px 32px
+}
+
+.post-content {
+    width: 100%;
+}
+
+.post-img {
+    width: 100%;
+    height: 100%;
+    max-width: 700px;
+    min-height: 250px;
+    background-size: cover;
+    background-position: center;
+    border-style: solid;
+    border-width: 0 0 0 16px;
+    border-color: white;
+}
+
+.calendar {
+    width: max-content;
+    margin-top: 16px;
+    padding: 16px;
+    background-color: white;
+}
+
+#calendar-icon {
+    width: 24px;
+    height: 24px;
+    padding: 4px;
+    background-image: url(http://josephpunk.dk/dev.etk/wp-content/uploads/2021/12/calendar-icon.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.arrow-icon {
+	width: 32px;
+    height: 32px;
+    margin-left: 16px;
+    background-image: url(http://josephpunk.dk/dev.etk/wp-content/uploads/2021/12/icon-arrow.svg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#dates {
+    padding-top: 16px;
+    color: #555;
+}
+
+#post-date {
+    padding: 0;
+}
+
+#sponsors-wall {
+    width: 100%;
+    height: 60vh;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#main-sponsors-img {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#all-sponsors-img {
+    padding: 32px;
+    height: 100%;
+    min-height: 500px;
+    background-color: white;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.podium-field {
+    width: 100%;
+    margin-top: 16px;
+    padding: 16px;
+    background-color: white;
+}
+
+.leaderboard-field {
+    width: 100%;
+    margin: 16px 0 0 0;
+    padding: 16px;
+    background-color: white;
+}
+
+.leaderboard-field p {
+    margin: 0;
+    line-height: 32px;
+    border-style: solid;
+    border-width: 2px 0 0 0;
+    border-color: #eee;
+}
+
+@media screen and (max-width: 700px) {
+    .post {
+        padding: 32px;
+    }
+    .post-img {
+        border: none;
+    }
+  }
+  

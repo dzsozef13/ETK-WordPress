@@ -1,0 +1,77 @@
+/*
+Theme Name: ETK Website 
+Author: Jozsef Adam Punk
+Version: 1.0 
+*/
+
+html {
+    text-decoration: none;
+    margin-top: 0 !important;
+    padding: 0;
+}
+
+body {
+    background: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Fonts */
+
+h1{
+    font-family: "termina", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+}
+
+@media screen and (max-width: 700px) {
+	h1 {
+		font-size: 44px;
+	}
+}
+ 
+h2{ 
+    font-family: "termina", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #555;
+    margin: 0;
+}
+
+h3 {
+    font-family: "termina", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    margin: 0;
+}
+
+h4 {
+    font-family: "termina", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #555;
+    margin: 0;
+}
+
+h5 {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #555;
+    margin: 0;
+}
+
+h6{
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #555;
+    margin: 0;
+	line-height: 22px;
+}
+
+
+

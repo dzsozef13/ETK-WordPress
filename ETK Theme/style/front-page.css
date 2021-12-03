@@ -1,0 +1,145 @@
+#welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+
+  width: 100%;
+  height: 50vh;
+
+  margin: 0;
+  padding: 32px;
+
+  color: white;
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+}
+
+#welcome-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.row {
+  width: 100%;
+  margin: 0;
+}
+
+.section {
+  --line-width-v: 8px;
+  --line-width-h: 8px;
+
+  padding: 0 200px 0 200px;
+}
+
+.whitespace {
+  height: 96px;
+}
+
+.field {
+  padding: 32px;
+  color: #3D483F;
+  background-color: #eee;
+}
+
+.field-nopad {
+  padding: 0;
+  color: #3D483F;
+  background-color: #eee;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  padding-left: 32px;
+  width: 100%;
+  height: 100px;
+
+  font-family: "termina", sans-serif;
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  background-color: #E31F25;
+}
+
+.button a{
+  color: white;
+}
+
+.button:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #b8181e;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  min-height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+
+.img-wbutton {
+  width: 100%;
+  height: calc(100% - 100px);
+  min-height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+
+#volume-icon {
+  width: 44px;
+  height: 44px;
+  padding: 4px;
+  margin-right: 32px;
+  background-image: url(http://josephpunk.dk/dev.etk/wp-content/uploads/2021/12/icon-sound.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.line-top {
+  border-style: solid;
+  border-width: var(--line-width-h) 0 0 0;
+  border-color: white;
+}
+
+.line-bottom {
+  border-style: solid;
+  border-width: 0 0 var(--line-width-h) 0;
+  border-color: white;
+}
+
+.line-left {
+  border-style: solid;
+  border-width: 0 0 0 var(--line-width-v);
+  border-color: white;
+}
+
+.line-right {
+  border-style: solid;
+  border-width: 0 var(--line-width-v) 0 0;
+  border-color: white;
+}
+
+@media screen and (max-width: 700px) {
+  .section {
+    --line-width-v: 0;
+    --line-width-h: 16px;
+    padding: 0 32px 0 32px;
+  }
+  .whitespace {
+    height: 32px;
+  }
+}
+
